@@ -1,0 +1,57 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* light pink */
+    color: #333;
+}
+.heart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.heart {
+    font-size: 10rem;
+    color: #ff69b4; /* pink color */
+}
+
+header {
+    background-color: #ffb6c1; /* slightly darker pink */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #c997d5;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #a83d78;
+}
+
+.container {
+    padding: 80px 20px 20px; /* Adjust padding to account for fixed header */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
